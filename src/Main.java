@@ -331,7 +331,7 @@ public class Main {
                 sc.nextLine();  
                 msgRetorno();         
             }       
-            Dev dev = listaDevs.get(selectDev-1);
+            Dev dev = listaDevs.get(selectDev-1); 
             dev.progredir();
             System.out.println("==============================================");
             System.out.println("Dev: "+dev.getNome()+" progrediu! XP:"+dev.calcularTotalXp());
